@@ -39,7 +39,7 @@ class PolyTreeNode
         nil
     end 
 
-    def bfs(target_value)
+    def bfs(target_value) 
         queue = []
         queue << self
         until queue.empty?
